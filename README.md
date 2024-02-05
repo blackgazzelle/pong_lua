@@ -120,7 +120,7 @@ Y PLANE
   - Things moving at different speeds because they process faster on different
     computers computers. Therefore you need some kind of factor to make it so
     that things will update at the same time. This is commonly called delta
-    20:35 which is the amount of time that happened between updates. If we
+    time which is the amount of time that happened between updates. If we
     multiply it by our "speed" then we essentially create a factor that is
     different on every computer That makes the overall speed move the same!
   - Faster computers will have a smaller dt therefore they will move less pixels
